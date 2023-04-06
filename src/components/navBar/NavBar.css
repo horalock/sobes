@@ -1,0 +1,16 @@
+.nav-items {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+.nav-item {
+    color: #454545;
+    text-decoration: none;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.nav-item:hover {
+    color: #cb0f6d;
+
+}
