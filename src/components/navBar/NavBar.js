@@ -1,18 +1,19 @@
 import React from 'react';
 import './NavBar.css'
 import NavItem from './NavItem/NavItem';
+// import { Link } from "react-router-dom";
 
 function NavBar() {
-
     return (
         <>
             <h1>Hey</h1>
             <div className='nav-items'>
-                <NavItem text="Задачи" />
-                <NavItem text="Вопросы HTML" />
-                <NavItem text="Вопросы CSS" />
-                <NavItem text="Вопросы JS" />
-                <NavItem text="Хитрости" />
+                <NavItem text="Задачи" route="/tasks"/>
+                <NavItem text="Вопросы HTML" route="/html" />
+                <NavItem text="Вопросы CSS" route="/css" />
+                <NavItem text="Вопросы JS" route="/javascript" />
+                <NavItem text="Хитрости" route="/tricks" />
+                <NavItem text="Описание" route="/" />
             </div>
 
         </>
