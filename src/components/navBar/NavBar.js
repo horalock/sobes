@@ -1,7 +1,6 @@
 import React from 'react';
 import './NavBar.css'
 import NavItem from './NavItem/NavItem';
-// import { Link } from "react-router-dom";
 
 function NavBar() {
     return (

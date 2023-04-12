@@ -16,16 +16,15 @@ function App() {
         <Link to="/js" className='nav-item'>js</Link>
         <Link to="/tasks" className='nav-item'>tasks</Link>
         <Link to="/tricks" className='nav-item'>tricks</Link>
-
       </div>
 
       <Routes>
-        <Route path='/' Component={() => <Content title="Main" />} />
-        <Route path='/html' Component={() => <Content title="HTML" />} />
-        <Route path='/css' Component={() => <Content title="CSS" />} />
-        <Route path='/js' Component={() => <Content title="JS" />} />
-        <Route path='/tasks' Component={() => <Content title="Tasks" />} />
-        <Route path='/tricks' Component={() => <Content title="Tricks" />} />
+        <Route path='/' Component={() => <Content title="main" />} />
+        <Route path='/html' Component={() => <Content title="html" />} />
+        <Route path='/css' Component={() => <Content title="css" />} />
+        <Route path='/js' Component={() => <Content title="js" />} />
+        <Route path='/tasks' Component={() => <Content title="tasks" />} />
+        <Route path='/tricks' Component={() => <Content title="tricks" />} />
       </Routes>
     </div>
   );

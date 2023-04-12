@@ -1,8 +1,5 @@
 import React from 'react';
 import './AnswerModal.css';
-// import data from "../../assets/data/steps.json";
-
-
 
 function AnswerModal(props) {
 
@@ -11,8 +8,7 @@ function AnswerModal(props) {
     return (
         <>
             <div className='answer-modal'>
-                <p className='answer-text'>{answer ? answer : ''}</p>
-                
+                <div className='answer-text' dangerouslySetInnerHTML={{__html: answer}}></div>
                 {answerCode && 
                 <pre className="language-javascript">
                     <code>

@@ -18,3 +18,12 @@ pre.language-javascript {
     border: 2px solid #a27ed0;
     border-radius: 6px;
 }
+
+.data-answer-list {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.answer-text p {
+    margin: 1rem 0;
+}
