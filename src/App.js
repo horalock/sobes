@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/navBar/NavBar';
 import Content from './components/contentBox/Content';
+import Main from "./components/MainPage/MainPage"
 import { Routes, Route, Link } from "react-router-dom";
 
 
@@ -19,7 +20,7 @@ function App() {
       </div>
 
       <Routes>
-        <Route path='/' Component={() => <Content title="main" />} />
+        <Route path='/' Component={() => <Main title="main" />} />
         <Route path='/html' Component={() => <Content title="html" />} />
         <Route path='/css' Component={() => <Content title="css" />} />
         <Route path='/js' Component={() => <Content title="js" />} />

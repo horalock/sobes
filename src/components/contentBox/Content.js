@@ -43,7 +43,7 @@ function Content(props) {
     return (
         <>
             <div className='content-area'>
-                <h1 className='step-title'>{props.title.toUpperCase()}, вопрос {ex+1}/{questionAmount}</h1>
+                <h1 className='step-title'>{props.title.toUpperCase()}, вопрос {ex < questionAmount ? ex+1: questionAmount}/{questionAmount}</h1>
                 <p className='step-description'>{description}</p>
                 <div>
                     {

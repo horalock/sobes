@@ -130,5 +130,135 @@
         }
         
     ],
-    "main" : []
+    "css": [
+        {
+            "description": "css1",
+            "answer": "<p>.</p>",
+            "answerCode": "",
+            "author": "chm.org.ua",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "css2",
+            "answer": "<p>2.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "css3",
+            "answer": "<p>3.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        }
+        
+    ],
+    "tasks": [
+        {
+            "description": "ta1",
+            "answer": "<p>ta1.</p>",
+            "answerCode": "",
+            "author": "chm.org.ua",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "ta2",
+            "answer": "<p>ta2.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "ta3",
+            "answer": "<p>ta3.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        }
+        
+    ],
+    "tricks": [
+        {
+            "description": "tr1",
+            "answer": "<p>1.</p>",
+            "answerCode": "",
+            "author": "chm.org.ua",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "tr2",
+            "answer": "<p>2.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        },
+        {
+            "description": "tr3",
+            "answer": "<p>3.</p>",
+            "answerCode": "",
+            "author": "Без автора",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        }
+        
+    ],
+    "main": [
+        {
+            "description": "Описание",
+            "answer": "<p>.</p>",
+            "answerCode": "",
+            "author": "chm.org.ua",
+            "date": "01.01.2023",
+            "difficulty": 1,
+            "categories": [
+                "logic",
+                "string"
+            ]
+        }   
+    ]
 }
